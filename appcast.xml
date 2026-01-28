@@ -1,33 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>User Converter Updates</title>
-    <description>Updates for User Converter</description>
-    <language>en</language>
-
-    <item>
-      <title>Version 2.0.0</title>
-      <sparkle:version>200</sparkle:version>
-      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
-      <pubDate>Mon, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-        <ul>
-          <li>Initial Sparkle update support</li>
-          <li>Student conversion improvements</li>
-        </ul>
-      ]]></description>
-
-      <enclosure
-        url="https://github.com/IHMS-IT/User-Converter/releases/download/v2.0.0/User.Converter.2.0.0.zip"
-        sparkle:version="200"
-        sparkle:shortVersionString="2.0.0"
-        length="0"
-        type="application/octet-stream"
-        sparkle:edSignature="PUT_SIGNATURE_HERE"
-      />
-    </item>
-
-  </channel>
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>User Converter</title>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Tue, 27 Jan 2026 21:48:33 -0600</pubDate>
+            <sparkle:version>200</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/IHMS-IT/User-Converter/main/UserConverter-2.0.0.zip" length="3573328" type="application/octet-stream" sparkle:edSignature="WfJOwZgl5xC3FvgXOR1Y/LV0lfGjMY4U2FboBhemwKhOEFkinM2WptniaH4PnmYBg/B1xCqKnF9siYuuktEjCA=="/>
+        </item>
+    </channel>
 </rss>
