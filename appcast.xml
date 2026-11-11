@@ -3,6 +3,29 @@
     <channel>
         <title>User Converter</title>
         <item>
+            <title>3.0.0-beta.1</title>
+            <pubDate>Tue, 10 Nov 2026 19:57:48 -0500</pubDate>
+            <sparkle:version>291</sparkle:version>
+            <sparkle:shortVersionString>3.0.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:channel>beta</sparkle:channel>
+            <description><![CDATA[
+                <p><strong>Beta.</strong> For testing on one Mac; the final 3.0.0 follows.</p>
+                <ul>
+                    <li>New look for macOS 27 (Liquid Glass), with a matching look on macOS 15 to 25: sidebar steps Platforms, Files, Review and Convert; Light, Dark or System theme; Cards or List on Platforms</li>
+                    <li>New Mosyle export: one Mosyle.xlsx with four sheets (students, teachers, classes, staff). Staff IDs are built from names and can be edited in Review</li>
+                    <li>Review step: a sortable, searchable student table with Select all / None, and Teacher / Staff decisions made before converting</li>
+                    <li>Convert shows progress and can be cancelled; a failed run leaves no half-written files</li>
+                    <li>Settings: Receive beta versions, default folders for each file, and Clean up folder (keeps the latest run, moves older dated folders to the Trash after you confirm)</li>
+                    <li>Release Notes page with a tab for each version</li>
+                    <li>Runs on macOS 15 or later (Apple silicon and Intel)</li>
+                    <li>Clever, Follett-Destiny and Microsoft files are unchanged from 2.1.0</li>
+                    <li>The student file must now include the Grade - this year column</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/IHMS-IT/User-Converter/releases/download/v3.0.0-beta.1/UserConverter-3.0.0-beta.1.zip" length="4555060" type="application/octet-stream" sparkle:edSignature="TEgnEuZwpLnWeFGrrKBNDh7eklGdT7XrH6m1r7/StofL+8M/rnGqaO6MQm1G68YKcrMgD/8QIt3w/Wq5+KjHBQ=="/>
+        </item>
+        <item>
             <title>2.1.0</title>
             <pubDate>Fri, 15 May 2026 11:56:35 -0500</pubDate>
             <sparkle:version>210</sparkle:version>
